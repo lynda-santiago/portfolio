@@ -1,0 +1,39 @@
+@import "./variables";
+
+.nav-section {
+  background: black;
+  width: 100%;
+  position: fixed;
+
+  .nav-container {
+    width: 940px;
+    margin: 0 auto;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $strong;
+    position: static;
+    h1 {
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 900;
+    }
+    .nav-menu {
+      display: flex;
+
+      li {
+        list-style: none;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+    }
+  }
+}
