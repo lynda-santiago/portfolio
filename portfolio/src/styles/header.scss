@@ -1,6 +1,5 @@
 @import "./variables";
 
-
 .header-section {
   background: black;
   width: 100%;
@@ -11,13 +10,43 @@
     background: black;
     padding-top: 170px;
     padding-bottom: 137px;
-    h1 {
-      font-size: 20rem;
-    }
- 
-    img{
-        width: 562px;
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      div {
+        align-self: end;
+      }
+      p {
+        color: white;
+        font-family: sans-serif;
+        font-size: 17px;
+        font-style: italic;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        font-weight: 500;
+      }
+      h3 {
+        font-size: 50px;
+        color: white;
+        font-family: $titles;
+        margin: 20px 0px;
+        line-height: 48px;
+        letter-spacing: 2px;
+      }
+      button {
+        background: #ff6584;
+        font-family: $light;
+        color: white;
+        text-transform: uppercase;
+        margin-top: 20px;
+        padding: 12px 15px;
+        width: 190px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        border: none;
+        font-weight: bold;
+      }
     }
   }
-
 }
