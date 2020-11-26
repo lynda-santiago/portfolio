@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./components/Nav";
 import Header from "./components//Header";
+import About from "./components/About";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       </section>
       <section className="header-section">
         <Header />
+      </section>
+      <section className="about-section">
+        <About />
       </section>
     </div>
   );

@@ -1,44 +1,42 @@
 @import "./variables";
 
-.header-section {
-  background: black;
+.about-section {
+  background: #00b0ff;
   width: 100%;
+  padding-top: 115px;
+  padding-bottom: 190px;
 
-  .header-container {
+  .about-container {
     width: 940px;
     margin: 0 auto;
-    background: black;
-    padding-top: 170px;
-    padding-bottom: 137px;
     .grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       div {
-        align-self: end;
+        align-self: start;
       }
       p {
         color: white;
         font-family: sans-serif;
-        font-size: 17px;
-        font-style: italic;
+        font-size: 14px;
         letter-spacing: 1px;
-        margin-bottom: 15px;
-        font-weight: 500;
+        margin-bottom: 20px;
+        text-align: right;
+        line-height: 20px;
       }
-      h3 {
-        font-size: 50px;
+      h1 {
+        font-size: 45px;
         color: white;
         font-family: $titles;
-        margin: 15px 0px;
-        line-height: 48px;
-        letter-spacing: 2px;
+        text-align: center;
+        font-weight: 900;
       }
       button {
         background: #ff6584;
         font-family: $light;
         color: white;
         text-transform: uppercase;
-        margin-top: 15px;
+        margin-top: 20px;
         padding: 12px 15px;
         width: 190px;
         font-size: 14px;
