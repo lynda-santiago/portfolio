@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./components/Nav";
 import Header from "./components//Header";
 import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       </section>
       <section className="about-section">
         <About />
+      </section>
+      <section className="skills-section">
+        <Skills />
       </section>
     </div>
   );
