@@ -1,0 +1,64 @@
+@import "./variables";
+
+.resume-section {
+  background: #2f2e41;
+  width: 100%;
+  color: white;
+  padding: 50px 0px;
+
+  .resume-container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px 0px;
+    .titles {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      h2 {
+        padding-left: 10px;
+        padding-right: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        width: 178px;
+        font-family: $light;
+        text-transform: uppercase;
+        background: #00b0ff;
+        border-radius: 7px;
+        font-size: 22px;
+      }
+    }
+    .info {
+      p {
+        margin-bottom: 2px;
+        font-family: $light;
+        font-size: 13px;
+        text-align: left;
+        line-height: 20px;
+      }
+      .infoSection {
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+        span {
+          background: #00b0ff;
+          margin-left: 15px;
+
+          p {
+            font-size: 16px;
+            padding-top: 2px;
+            padding-left: 8px;
+            padding-right: 10px;
+            background: #00b0ff;
+          }
+        }
+        p {
+          font-size: 14px;
+          text-align: left;
+          font-family: $light;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
