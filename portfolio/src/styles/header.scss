@@ -1,0 +1,23 @@
+@import "./variables";
+
+
+.header-section {
+  background: black;
+  width: 100%;
+
+  .header-container {
+    width: 940px;
+    margin: 0 auto;
+    background: black;
+    padding-top: 170px;
+    padding-bottom: 137px;
+    h1 {
+      font-size: 20rem;
+    }
+ 
+    img{
+        width: 562px;
+    }
+  }
+
+}
