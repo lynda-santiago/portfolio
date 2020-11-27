@@ -1,0 +1,23 @@
+@import "./variables";
+
+.projects-section {
+  background-image: url("https://i.imgur.com/oQnoke4.png");
+  width: 100%;
+  padding: 120px 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+
+  .projects-container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    h1{
+        font-size: 45px;
+        font-family: $titles;
+    }
+    
+  }
+
+}

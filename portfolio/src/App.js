@@ -4,6 +4,7 @@ import Header from "./components//Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Resume from './components/Resume';
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       </section>
       <section className="resume-section">
         <Resume />
+      </section>
+      <section className="projects-section">
+        <Projects />
       </section>
     </div>
   );
