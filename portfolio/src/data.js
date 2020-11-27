@@ -65,15 +65,19 @@ export const resumeData = [
 
 export const projectsData = [
   {
-    video: 'https://s8.gifyu.com/images/ezgif-3-854abacb6fbf.gif',
+    video: "https://s8.gifyu.com/images/ezgif-3-854abacb6fbf.gif",
     name: "Laced Pro",
     date: "October 2020",
     about:
       "Laced pro is an online sneaker store, where users can checkout the latest sneakers and add them to cart.",
 
     year: "2020",
-    tech: "REACT / JS / SASS / MATERIAL UI / BOOTSTRAP",
+    tech: "REACT/JS/SASS/MATERIAL UI/BOOTSTRAP",
     github: "https://github.com/lyntechi/LacedPro",
+    icons: {
+      iconOne:
+        "https://cdn2.iconfinder.com/data/icons/designer-skills/128/sass-256.png",
+    },
   },
   {
     video: "https://s2.gifyu.com/images/ezgif-3-9e08116eb520.gif",
@@ -83,7 +87,7 @@ export const projectsData = [
       "This is the first website I ever created. Its a fitness marketing page to let users know how the App works.",
 
     year: "2020",
-    tech: "HTML / CSS",
+    tech: "HTML/CSS",
     github: "https://github.com/lyntechi/UI",
   },
 ];
