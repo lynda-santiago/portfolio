@@ -3,21 +3,106 @@
 .projects-section {
   background-image: url("https://i.imgur.com/oQnoke4.png");
   width: 100%;
-  padding: 120px 120px;
+  padding: 90px 90px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
-
+  h1 {
+    font-size: 40px;
+    font-family: $titles;
+    margin: 40px auto;
+    width: 940px;
+  }
   .projects-container {
     width: 940px;
     margin: 0 auto;
     padding: 20px 0px;
-    h1{
-        font-size: 45px;
-        font-family: $titles;
-    }
-    
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
+    .projects {
+      background: #7510f7;
+      width: 940px;
+      margin-bottom: 100px;
+      padding: 30px;
+      // height: 100%;
+      display: flex;
+      justify-content: space-between;
+      box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+        0px 3px 14px 2px rgba(0, 0, 0, 0.12),
+        0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+      .image {
+        display: flex;
+      }
+      div {
+        margin: 10px 0px;
+        h4 {
+          margin: 10px 0px;
+          font-family: $light;
+        }
+      }
+
+      h2 {
+        font-family: $light;
+        font-size: 25px;
+        margin-bottom: 10px;
+        color: white;
+      }
+      p {
+        padding-right: 22px;
+        font-family: $light;
+        font-size: 13px;
+        line-height: 20px;
+        color: white;
+      }
+      .box {
+        color: black;
+        margin-top: 25px;
+        font-family: $light;
+        margin-right: 32px;
+        border-radius: 4px;
+        .techTitle {
+          font-size: 20px;
+        }
+        .iconImage {
+          width: 40px;
+          height: 40px;
+          margin-top: 20px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+      0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+    align-self: center;
+  }
+  .topSection {
+    background: rgb(13, 0, 83);
+    padding: 20px;
+    width: 100%;
+    align-self: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      background: #b30ac2;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-family: $light;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: bold;
+      border: none;
+      color: white;
+    }
+  }
 }
