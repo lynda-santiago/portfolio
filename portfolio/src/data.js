@@ -1,3 +1,4 @@
+
 import { htmlImg, designImg, serverImg } from "./svgHelpers/svgVariables";
 
 export const skillsData = [
