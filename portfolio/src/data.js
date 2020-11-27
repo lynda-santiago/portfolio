@@ -65,7 +65,7 @@ export const resumeData = [
 
 export const projectsData = [
   {
-    video: '',
+    video: 'https://s8.gifyu.com/images/ezgif-3-854abacb6fbf.gif',
     name: "Laced Pro",
     date: "October 2020",
     about:
@@ -75,15 +75,15 @@ export const projectsData = [
     tech: "REACT / JS / SASS / MATERIAL UI / BOOTSTRAP",
     github: "https://github.com/lyntechi/LacedPro",
   },
-  // {
-  //   video: "https://lyntechi.wistia.com/medias/8rsuzlq1o8?wtime=2s",
-  //   name: "Anywhere Fitness",
-  //   date: "May 2020",
-  //   about:
-  //     "This is the first website I ever created. Its a fitness marketing page to let users know how the App works.",
+  {
+    video: "https://s2.gifyu.com/images/ezgif-3-9e08116eb520.gif",
+    name: "Anywhere Fitness",
+    date: "May 2020",
+    about:
+      "This is the first website I ever created. Its a fitness marketing page to let users know how the App works.",
 
-  //   year: "2020",
-  //   tech: "HTML / CSS",
-  //   github: "https://github.com/lyntechi/UI",
-  // },
+    year: "2020",
+    tech: "HTML / CSS",
+    github: "https://github.com/lyntechi/UI",
+  },
 ];
