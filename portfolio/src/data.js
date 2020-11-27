@@ -62,3 +62,28 @@ export const resumeData = [
       "Quoted customers on available product options and accurately explain plan details. Recommended the best plans that fit the customer's needs. Exceeded monthly performance metrics. Conducted outgoing calls to provide answers and additional information to consumers. Followed a proven sales and quality process to assist customers. Data entry / updated CRM with customer data.",
   },
 ];
+
+export const projectsData = [
+  {
+    video: '',
+    name: "Laced Pro",
+    date: "October 2020",
+    about:
+      "Laced pro is an online sneaker store, where users can checkout the latest sneakers and add them to cart.",
+
+    year: "2020",
+    tech: "REACT / JS / SASS / MATERIAL UI / BOOTSTRAP",
+    github: "https://github.com/lyntechi/LacedPro",
+  },
+  // {
+  //   video: "https://lyntechi.wistia.com/medias/8rsuzlq1o8?wtime=2s",
+  //   name: "Anywhere Fitness",
+  //   date: "May 2020",
+  //   about:
+  //     "This is the first website I ever created. Its a fitness marketing page to let users know how the App works.",
+
+  //   year: "2020",
+  //   tech: "HTML / CSS",
+  //   github: "https://github.com/lyntechi/UI",
+  // },
+];
