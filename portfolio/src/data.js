@@ -1,4 +1,3 @@
-
 import { htmlImg, designImg, serverImg } from "./svgHelpers/svgVariables";
 
 export const skillsData = [
@@ -90,5 +89,32 @@ export const projectsData = [
     year: "2020",
     tech: "HTML/CSS",
     github: "https://github.com/lyntechi/UI",
+  },
+];
+
+export const moreInfoData = [
+  {
+    image: "https://i.imgur.com/AaeQixk.png",
+    title: "I Enjoy Design",
+    text:
+      "Looking for users to love your app? A beautiful UI is definitely a must. If you give me an opportunity to join your team, I can give you exactly that.",
+  },
+  {
+    image: "https://i.imgur.com/a1qNoRI.png",
+    title: "Confidence & Mindset",
+    text:
+      "I have great confidence and a positive mindset that gives me the ability to produce top quality websites/apps that can most definitely have the potential to stand out.",
+  },
+  {
+    image: "https://i.imgur.com/WmurkhL.png",
+    title: "Great Engineering",
+    text:
+      "An app crashing can literally ruin a users mood. If I join your team I can easily adapt and work well with the other developers to deliver a perfectly working app. ",
+  },
+  {
+    image: "https://i.imgur.com/HPf2oTO.png",
+    title: "I Keep Users Happy",
+    text:
+      "I believe I can make users happy by creating a simple but very exciting experience. This will improve retention and average time that a user spends on an app.",
   },
 ];
