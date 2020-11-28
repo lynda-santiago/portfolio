@@ -11,7 +11,17 @@ function Projects() {
           return (
             <>
               <div className="topSection">
-                <button>Visit Website</button>
+                {item.name === "Laced Pro" ? (
+                  <button>Visit Website</button>
+                ) : (
+                  <a
+                    href="https://anywhere-fitness-getfit.netlify.app/index.html"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button>Visit Website</button>
+                  </a>
+                )}{" "}
               </div>
 
               <div className="projects">
