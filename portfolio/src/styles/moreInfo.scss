@@ -1,0 +1,36 @@
+.moreInfo-section {
+  background: #090723;
+  width: 100%;
+  padding-top: 140px;
+  padding-bottom: 190px;
+  height: 100vh;
+  color: white;
+  font-family: $light;
+
+  .moreInfo-container {
+    width: 940px;
+    margin: 0 auto;
+    img {
+      width: 120px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      flex-direction: column;
+      div {
+        margin-bottom: 30px;
+      }
+      h1 {
+        margin: 40px 0px;
+        font-size: 23px;
+        letter-spacing: 1px;
+      }
+      p {
+        font-size: 13px;
+        line-height: 20px;
+        color: #9dc6d8;
+        width: 78%;
+      }
+    }
+  }
+}
