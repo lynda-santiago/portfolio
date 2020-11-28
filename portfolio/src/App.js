@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Resume from './components/Resume';
 import Projects from './components/Projects';
 import MoreInfo from './components/MoreInfo';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
       </section>
       <section className="moreInfo-section">
         <MoreInfo />
+      </section>
+      <section className="contact-section">
+        <Contact/>
       </section>
     </div>
   );

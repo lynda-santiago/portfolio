@@ -8,6 +8,7 @@ function Nav() {
         <li>Skills</li>
         <li>Resume</li>
         <li>Projects</li>
+        <li>Extras</li>
         <li>Contact</li>
       </div>
       <h1>Lynda Santiago</h1>
