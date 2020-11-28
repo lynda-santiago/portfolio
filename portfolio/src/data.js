@@ -1,8 +1,7 @@
-import { htmlImg, designImg, serverImg } from "./svgHelpers/svgVariables";
 
 export const skillsData = [
   {
-    img: htmlImg,
+    img: 'https://i.imgur.com/1QttBz2.png',
     title: "Front End",
     skills: {
       first: "HTML/CSS/SASS",
@@ -14,7 +13,7 @@ export const skillsData = [
     },
   },
   {
-    img: designImg,
+    img: 'https://i.imgur.com/DL5M7Xl.png',
     title: "Web Design",
     skills: {
       first: "ADOBE XD",
@@ -25,7 +24,7 @@ export const skillsData = [
     },
   },
   {
-    img: serverImg,
+    img: 'https://i.imgur.com/Z8TkcdW.png',
     title: "Back End",
     skills: {
       first: "NODE.JS",

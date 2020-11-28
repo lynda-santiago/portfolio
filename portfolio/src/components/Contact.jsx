@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import { contactImg } from "../svgHelpers/svgVariables";
-import { FaPhoneAlt } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { MdGpsFixed } from "react-icons/md";
 
 function Contact() {
   const [successMessage, setSuccessMessage] = useState(false);
@@ -30,88 +26,44 @@ function Contact() {
   };
   return (
     <div className="contact-container">
-      <div className="contactInfo">
-        <div style={{ marginBottom: "20px" }}>
-          <h3>Let's get in touch</h3>
-          <p style={{ fontWeight: "bold", marginTop: "10px" }}>
-            I'm open for opportunities or just to have a chat.
-          </p>
-        </div>
-        <p>
-          <FaPhoneAlt style={{ fontSize: "18px", marginRight: "10px" }} />{" "}
-          1.484.627.9598
-        </p>
-        <p>
-          <HiOutlineMail style={{ fontSize: "18px", marginRight: "10px" }} />{" "}
-          lyndasantiag@gmail.com
-        </p>
-        <p>
-          <MdGpsFixed style={{ fontSize: "18px", marginRight: "10px" }} />
-          EASTON, PENNSYLVANIA
-        </p>
-        <h3>Follow me on social media</h3>
-        <a
-          href="https://www.linkedin.com/in/lynda-santiago-7b58221b4/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://cdn3.iconfinder.com/data/icons/free-social-media-23/32/linkedin_social_media_logo-256.png"
-            alt="linkedin logo"
-          />
-        </a>
-        <a
-          href="https://twitter.com/LyndaSa62252190"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://cdn1.iconfinder.com/data/icons/lumin-social-media-icons/512/Twitter-256.png"
-            alt="twitter logo"
-          />
-        </a>
-
-        <a href="https://github.com/lyntechi" target="_blank" rel="noreferrer">
-          <img
-            src="https://cdn3.iconfinder.com/data/icons/free-social-media-23/32/github_social_media_logo-256.png"
-            alt="github logo"
-          />
-        </a>
-      </div>
       <div className="contactForm">
         <form onSubmit={sendEmail}>
-          {contactImg}
-          <p>Contact Me</p>
-          <label htmlFor="name">
-            <input
-              type="text"
-              name="name"
-              className="contactInput"
-              placeholder="name"
-            />
-            <br />
-          </label>
+          <img src="https://i.imgur.com/Q2XbCOG.png" alt="" />
+          <p>Want to get in touch?</p>
+          <p>Let's Talk!</p>
+          <p className="labelTitles">
+            Reach out if you think I would be a great fit for your company or if
+            you just want to chat.
+          </p>
 
-          <label htmlFor="email">
-            <input
-              type="text"
-              name="email"
-              className="contactInput"
-              placeholder="email"
-            />
-            <br />
-          </label>
-          <label for="subject">
-            <input
-              type="text"
-              name="subject"
-              className="contactInput"
-              placeholder="subject"
-            />
-            <br />
-          </label>
+          <div className="nameAndEmail">
+            {" "}
+            <label htmlFor="name">
+              <p className="labelTitles">Name:</p>
+
+              <input
+                type="text"
+                name="name"
+                className="contactInput"
+                placeholder="name"
+              />
+            </label>
+            <label htmlFor="email">
+              <p className="labelTitles">Email:</p>
+
+              <input
+                type="text"
+                name="email"
+                className="contactInput"
+                placeholder="email"
+              />
+            </label>
+          </div>
+
           <label htmlFor="message">
-            <input
+            <p className="labelTitles">Message:</p>
+
+            <textarea
               type="textarea"
               name="message"
               className="contactInput"

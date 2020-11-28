@@ -1,90 +1,117 @@
 @import "./variables";
+@import "./mixins.scss";
 
 .contact-section {
-  background-image: url("https://i.imgur.com/fQBFgly.png");
-  background-attachment: fixed;
   font-family: $light;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
+  background-color: rgb(233, 220, 220);
 
   .contact-container {
     width: 940px;
-    margin: 10rem auto;
+    margin: 1rem auto;
     display: flex;
     align-items: center;
-    .contactInfo {
-      background-image: url("https://i.imgur.com/7BALEml.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      height: 470px;
-      width: 50%;
-      border-radius: 8px 0px 0px 8px;
-      padding: 30px;
-      img {
-        width: 50px;
-        margin-top: 8px;
-        margin-right: 8px;
-        cursor: pointer;
-      }
-      p {
-        font-size: 14px;
-        margin: 40px 0px;
-      }
+    padding-top: 3rem;
+    @include responsive(tablet) {
+      width: 90%;
+      display: flex;
+      justify-content: center;
     }
+
     .contactForm {
-      width: 50%;
-      background: #18668a;
-      padding: 30px;
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
       border-radius: 0px 8px 8px 0px;
+      color: black;
 
+      .nameAndEmail {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        justify-content: space-between;
+        @include responsive(mobile) {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      .labelTitles {
+        font-size: 15px;
+        font-weight: 100;
+        margin: 20px 0px;
+        @include responsive(mobile) {
+          margin: 0px;
+          width: 100%;
+        }
+      }
       form {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
+        img {
+          width: 270px;
+          height: auto;
+        }
         P {
-          text-transform: uppercase;
+          color: black;
         }
         h3 {
-          color: white;
           font-family: $light;
-          font-size: 14px;
+          font-size: 12px;
+          color: black;
         }
         input {
-          background: none;
-          border: 2px solid rgba(255, 255, 255, 0.65);
-          color: white;
-          width: 350px;
-          padding: 8px;
+          background: white;
+          border: 2px solid rgba(207, 200, 200, 0.795);
+          width: 400px;
+          padding: 10px;
           margin-bottom: 15px;
-          border-radius: 8px;
+          color: black;
+          @include responsive(tablet) {
+            width: 250px;
+            margin: 0px 20px;
+          }
+          @include responsive(mobile) {
+            margin: 0px;
+          }
         }
         ::placeholder {
-          color: white;
+          color: grey;
           font-family: $light;
           text-transform: uppercase;
+        }
+        textarea {
+          width: 800px;
+          height: 200px;
+          border: 2px solid rgba(207, 200, 200, 0.795);
+          padding: 8px;
+          @include responsive(tablet) {
+            width: 540px;
+            margin: 0px 0px;
+          }
+          @include responsive(mobile) {
+            width: 280px;
+          }
         }
         p {
           text-align: center;
           margin: 10px 0px;
-          color: white;
-          font-size: 35px;
+          color: black;
+          font-size: 30px;
         }
         button {
-          background: none;
-          border: 2px solid rgba(255, 255, 255, 0.65);
-          font-family: $light;
-          width: 200px;
-          padding: 11px;
-          font-size: 14px;
-          font-weight: bold;
+          background: black;
           color: white;
-          border-radius: 8px;
+          border: none;
+          font-family: $light;
+          width: 150px;
+          padding: 12px;
+          font-size: 12px;
           margin-top: 10px;
           text-transform: uppercase;
           cursor: pointer;

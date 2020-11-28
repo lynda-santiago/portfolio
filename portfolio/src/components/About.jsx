@@ -1,11 +1,12 @@
 import React from "react";
-import { laptop } from "../svgHelpers/svgVariables";
 
 function About() {
   return (
     <div className="about-container">
       <div className="grid">
-        <div>{laptop}</div>
+        <div>
+          <img src="https://i.imgur.com/GEhaODV.png" alt='' />
+        </div>
 
         <div>
           <h1>About Me</h1>

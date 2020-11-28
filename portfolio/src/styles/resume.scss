@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixins.scss";
 
 .resume-section {
   background: #2f2e41;
@@ -10,6 +11,13 @@
     width: 940px;
     margin: 0 auto;
     padding: 40px 0px;
+    @include responsive(tablet) {
+      width: 90%;
+      padding: 40px 20px;
+    }
+    @include responsive(mobile) {
+      padding: 0px;
+    }
     .titles {
       display: flex;
       justify-content: space-between;
@@ -26,9 +34,17 @@
         background: #00b0ff;
         border-radius: 7px;
         font-size: 22px;
+        @include responsive(mobile) {
+          font-size: 16px;
+          width: 100%;
+        }
       }
     }
     .info {
+      @include responsive(mobile) {
+        font-size: 16px;
+        width: 100%;
+      }
       p {
         margin-bottom: 2px;
         font-family: $light;
@@ -50,6 +66,10 @@
             padding-left: 8px;
             padding-right: 10px;
             background: #00b0ff;
+            @include responsive(mobile) {
+              font-size: 14px;
+              width: 100px;
+            }
           }
         }
         p {
@@ -57,6 +77,10 @@
           text-align: left;
           font-family: $light;
           font-weight: bold;
+          @include responsive(mobile) {
+            font-size: 12px;
+            width: 100%;
+          }
         }
       }
     }

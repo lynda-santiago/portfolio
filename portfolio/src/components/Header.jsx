@@ -1,5 +1,4 @@
 import React from "react";
-import { heartsImg } from "../svgHelpers/svgVariables";
 
 function Header() {
   return (
@@ -15,7 +14,9 @@ function Header() {
           <button>hire me</button>
         </div>
 
-        <div>{heartsImg}</div>
+        <div>
+          <img src="https://i.imgur.com/So9di4v.png" alt="" />
+        </div>
       </div>
     </div>
   );
