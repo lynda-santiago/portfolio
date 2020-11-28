@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixins.scss";
 
 .skills-section {
   background: #ffffff;
@@ -8,12 +9,27 @@
   .skills-container {
     width: 940px;
     margin: 0 auto;
+    @include responsive(tablet) {
+      width: 90%;
+    }
     .grid {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       margin-top: -250px;
       margin-bottom: 50px;
-    
+      @include responsive(tablet) {
+        grid-template-columns: 1fr;
+        margin-top: 0px;
+      }
+      img {
+        width: 100%;
+        @include responsive(tablet) {
+          width: 50%;
+        }
+        @include responsive(mobile) {
+          width: 100%;
+        }
+      }
 
       div {
         background: white;
@@ -25,7 +41,12 @@
         padding-bottom: 30px;
         width: 100%;
         height: 100%;
-        
+        @include responsive(tablet) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
       }
 
       h2 {

@@ -8,7 +8,7 @@ function Skills() {
         {skillsData.map((item) => {
           return (
             <div>
-              {item.img}
+              <img src={item.img} alt="" />
               <h2>{item.title}</h2>
               <li>{item.skills.first}</li>
               <li>{item.skills.second}</li>

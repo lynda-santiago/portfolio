@@ -1,3 +1,6 @@
+@import "./variables";
+@import "./mixins.scss";
+
 .moreInfo-section {
   background: #090723;
   width: 100%;
@@ -10,6 +13,9 @@
   .moreInfo-container {
     width: 940px;
     margin: 0 auto;
+    @include responsive(tablet) {
+      width: 100%;
+    }
     img {
       width: 120px;
     }
@@ -17,8 +23,18 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       flex-direction: column;
+      @include responsive(mobile) {
+        grid-template-columns: 1fr;
+      }
+
       div {
         margin-bottom: 30px;
+        @include responsive(tablet) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
       }
       h1 {
         margin: 40px 0px;
@@ -30,6 +46,10 @@
         line-height: 20px;
         color: #9dc6d8;
         width: 78%;
+        @include responsive(tablet) {
+          width: 90%;
+          text-align: center;
+        }
       }
     }
   }

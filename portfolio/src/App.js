@@ -3,10 +3,10 @@ import Nav from "./components/Nav";
 import Header from "./components//Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Resume from './components/Resume';
-import Projects from './components/Projects';
-import MoreInfo from './components/MoreInfo';
-import Contact from './components/Contact';
+import Resume from "./components/Resume";
+import Projects from "./components/Projects";
+import MoreInfo from "./components/MoreInfo";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
         <MoreInfo />
       </section>
       <section className="contact-section">
-        <Contact/>
+        <Contact />
       </section>
     </div>
   );
