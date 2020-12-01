@@ -2,16 +2,17 @@
 @import "./mixins.scss";
 
 .moreInfo-section {
-  background: #090723;
+  background: -webkit-Radial-gradient(ellipse at bottom right,#174bf4,#0e0512);
+  background: Radial-gradient(ellipse at bottom right,#174bf4,#0e0512); 
   width: 100%;
-  padding-top: 140px;
-  padding-bottom: 190px;
+  padding-top: 170px;
+  padding-bottom: 170px;
   height: 100%;
   color: white;
   font-family: $light;
 
   .moreInfo-container {
-    width: 940px;
+    width: 1100px;
     margin: 0 auto;
     @include responsive(tablet) {
       width: 100%;
@@ -22,13 +23,17 @@
     .grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      flex-direction: column;
-      @include responsive(mobile) {
+  
+      @include responsive(tablet) {
         grid-template-columns: 1fr;
       }
 
       div {
         margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
         @include responsive(tablet) {
           display: flex;
           flex-direction: column;
@@ -45,9 +50,10 @@
         font-size: 13px;
         line-height: 20px;
         color: #9dc6d8;
-        width: 78%;
+        width: 80%;
+        text-align: center;
         @include responsive(tablet) {
-          width: 90%;
+          width: 50%;
           text-align: center;
         }
       }

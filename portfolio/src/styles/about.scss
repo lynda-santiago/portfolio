@@ -2,19 +2,45 @@
 @import "./mixins.scss";
 
 .about-section {
-  background: #00b0ff;
+  background: ghostwhite;
   width: 100%;
-  padding-top: 115px;
+  padding-top: 0px;
   padding-bottom: 190px;
+  @include responsive(tablet) {
+    padding: 20px 0px;
+  }
   @include responsive(mobile) {
-    padding: 100px 0px;
+    padding: 20px 0px;
   }
   .about-container {
-    width: 940px;
+    width: 1100px;
     margin: 0 auto;
     @include responsive(tablet) {
       width: 90%;
     }
+    .skills{
+      color: #1a3066;
+      font-size: 46px;
+      font-family: $light;
+      padding-top:80px;
+      line-height: 30px;
+      @include responsive(tablet) {
+    text-align: center;
+    padding-top: 100px;
+      }
+      @include responsive(mobile) {
+        text-align: center;
+        font-size: 20px;
+        padding-top: 60px;
+      }
+      .logo{
+        margin-left: 10px;
+        font-size: 60px;
+    }
+    span{
+      color: #F9A826;
+    }
+  }
 
     .grid {
       display: grid;
@@ -23,13 +49,13 @@
         grid-template-columns: 1fr;
       }
       img {
-        width: 462px;
+        width: 520px;
         @include responsive(mobile) {
           width: 95%;
         }
       }
       div {
-        align-self: start;
+        align-self: center;
         @include responsive(tablet) {
           display: flex;
           flex-direction: column;
@@ -39,23 +65,32 @@
         }
       }
       p {
-        color: white;
-        font-family: sans-serif;
+        color: #546681;
+        font-family: $light;
         font-size: 14px;
         letter-spacing: 1px;
         margin-bottom: 20px;
         text-align: right;
-        line-height: 20px;
+        line-height: 22px;
+        font-weight: bold;
         @include responsive(tablet) {
           text-align: center;
+        }
+        @include responsive(mobile) {
+          text-align: center;
+          font-size: 12px;
         }
       }
       h1 {
         font-size: 45px;
-        color: white;
-        font-family: $titles;
+        color: #1a3066;
+        font-family:$strong;
         text-align: center;
-        font-weight: 900;
+        margin-bottom: 8px;
+        @include responsive(mobile) {
+          text-align: center;
+          font-size: 30px;
+        }
       }
       button {
         background: #ff6584;

@@ -12,20 +12,20 @@ function Resume() {
               <div
                 style={{
                   width: "640px",
-                  borderTop: "3px solid #00b0ff",
+                  borderTop: "3px solid #1a3066",
                 }}
               ></div>
             </div>
             <div className="info">
               <div className="infoSection">
-                <p>⚪{item.companyName1}</p>
+                <p>◙ {item.companyName1}</p>
                 <span>
                   <p>{item.date1}</p>
                 </span>
               </div>
               <p style={{ marginBottom: "30px" }}>{item.firstAbout}</p>
               <div className="infoSection">
-                <p>⚪{item.companyName2}</p>
+                <p>◙ {item.companyName2}</p>
 
                 <span>
                   <p>{item.date2}</p>

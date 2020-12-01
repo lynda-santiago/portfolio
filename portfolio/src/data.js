@@ -1,7 +1,7 @@
 
 export const skillsData = [
   {
-    img: 'https://i.imgur.com/1QttBz2.png',
+    img: 'https://i.imgur.com/fb0B9bA.png',
     title: "Front End",
     skills: {
       first: "HTML/CSS/SASS",
@@ -13,7 +13,7 @@ export const skillsData = [
     },
   },
   {
-    img: 'https://i.imgur.com/DL5M7Xl.png',
+    img: 'https://i.imgur.com/EV15GY1.png',
     title: "Web Design",
     skills: {
       first: "ADOBE XD",
@@ -24,7 +24,7 @@ export const skillsData = [
     },
   },
   {
-    img: 'https://i.imgur.com/Z8TkcdW.png',
+    img: 'https://i.imgur.com/n5qiusr.png',
     title: "Back End",
     skills: {
       first: "NODE.JS",

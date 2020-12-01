@@ -22,7 +22,7 @@ export default function SimpleMenu() {
         aria-haspopup="true"
         onClick={handleClick}
       >
-        <AiOutlineMenu style={{ color: "white", fontSize: "14px" }} />
+        <AiOutlineMenu style={{ color: "#1a3066", fontSize: "16px" }} />
       </Button>
       <Menu
         id="simple-menu"

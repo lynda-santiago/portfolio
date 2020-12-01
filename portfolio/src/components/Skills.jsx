@@ -5,6 +5,7 @@ function Skills() {
   return (
     <div className="skills-container">
       <div className="grid">
+        
         {skillsData.map((item) => {
           return (
             <div>

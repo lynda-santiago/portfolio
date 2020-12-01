@@ -1,11 +1,12 @@
 import React from "react";
+import {GiProgression} from 'react-icons/gi'
 
 function About() {
   return (
     <div className="about-container">
       <div className="grid">
         <div>
-          <img src="https://i.imgur.com/GEhaODV.png" alt='' />
+          <img src="https://i.imgur.com/f8q7J78.png" alt="" />
         </div>
 
         <div>
@@ -22,6 +23,9 @@ function About() {
           </p>
         </div>
       </div>
+      <h1 className="skills">
+        My skills can help your<br/> business <span>drive success</span><GiProgression className='logo' />
+      </h1>
     </div>
   );
 }

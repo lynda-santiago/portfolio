@@ -1,16 +1,18 @@
 import React from "react";
 import { projectsData } from "../data.js";
+import {FcWorkflow} from 'react-icons/fc'
 
 function Projects() {
   return (
     <>
-      <h1>My Projects & More To Come. . .</h1>
-
+      <h1>
+        MY <span>PROJECTS</span> <FcWorkflow/>
+      </h1>
       <div className="projects-container">
         {projectsData.map((item) => {
           return (
             <>
-              <div className="topSection">
+              {/* <div className="topSection">
                 {item.name === "Laced Pro" ? (
                   <button>Visit Website</button>
                 ) : (
@@ -22,7 +24,7 @@ function Projects() {
                     <button>Visit Website</button>
                   </a>
                 )}{" "}
-              </div>
+              </div> */}
 
               <div className="projects">
                 <div>
@@ -95,6 +97,19 @@ function Projects() {
                 </div>
                 <div className="image">
                   <img src={item.video} alt="gif of project website" />
+                  <div className="topSection">
+                    {item.name === "Laced Pro" ? (
+                      <button>Visit Website</button>
+                    ) : (
+                      <a
+                        href="https://anywhere-fitness-getfit.netlify.app/index.html"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button>Visit Website</button>
+                      </a>
+                    )}{" "}
+                  </div>
                 </div>
               </div>
             </>
