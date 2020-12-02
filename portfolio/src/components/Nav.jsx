@@ -6,12 +6,12 @@ function Nav() {
     <div className="nav-container">
       <div className="nav-menu">
         <ul>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Resume</li>
-          <li>Projects</li>
-          <li>Extras</li>
-          <li>Contact</li>
+          <li><a href='#about'>About</a></li>
+          <li><a href='#skills'>Skills</a></li>
+          <li><a href='#resume'>Resume</a></li>
+          <li><a href='#projects'>Projects</a></li>
+          <li><a href='#extras'>Extras</a></li>
+          <li><a href='#contact'>Contact</a></li>
         </ul>
       </div>
       <h1>Lyn Santi</h1>

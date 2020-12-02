@@ -11,7 +11,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App">
-      <section className="nav-section">
+      <section className="nav-section" >
         <Nav />
       </section>
       <section className="header-section">

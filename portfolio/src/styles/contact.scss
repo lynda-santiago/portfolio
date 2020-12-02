@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   color: black;
-  background-color: rgb(233, 220, 220);
+  background-color: rgba(233, 233, 233, 0.829);
 
   .contact-container {
     width: 940px;
@@ -46,6 +46,7 @@
         @include responsive(mobile) {
           margin: 0px;
           width: 100%;
+          font-size: 13px;
         }
       }
       form {
@@ -56,6 +57,10 @@
         img {
           width: 205px;
           height: auto;
+          @include responsive(mobile) {
+            width: 160px;
+           
+          }
         }
         P {
           color: black;
@@ -95,7 +100,8 @@
             margin: 0px 0px;
           }
           @include responsive(mobile) {
-            width: 280px;
+            width: 250px;
+            height: 100px;
           }
         }
         p {
@@ -103,6 +109,9 @@
           margin: 10px 0px;
           color: black;
           font-size: 30px;
+          @include responsive(mobile) {
+         font-size:16px;
+          }
         }
         button {
           background: #1a3066;

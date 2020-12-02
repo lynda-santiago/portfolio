@@ -25,7 +25,7 @@ function Contact() {
     e.target.reset();
   };
   return (
-    <div className="contact-container">
+    <div className="contact-container" id='contact'>
       <div className="contactForm">
         <form onSubmit={sendEmail}>
           <img src="https://i.imgur.com/Q2XbCOG.png" alt="" />

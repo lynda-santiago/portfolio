@@ -3,8 +3,8 @@
 
 .projects-section {
   width: 100%;
-  padding: 120px;
-  background: whitesmoke;
+  padding: 120px 0px;
+  background: ghostwhite;
   @include responsive(tablet) {
     padding: 0px;
   }
@@ -126,6 +126,7 @@
           }
           @include responsive(mobile) {
             text-align: center;
+            width: 100%;
           }
         }
       }

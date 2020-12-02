@@ -3,7 +3,7 @@ import { skillsData } from "../data";
 
 function Skills() {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id='skills'>
       <div className="grid">
         
         {skillsData.map((item) => {

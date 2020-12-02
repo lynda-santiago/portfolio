@@ -2,8 +2,7 @@
 @import "./mixins.scss";
 
 .resume-section {
-  background: -webkit-linear-gradient(to right,#ffc811,#fe944a);
-  background: linear-gradient(to right,#ffc811,#fe944a);   
+  background-color: rgba(233, 233, 233, 0.829);
   width: 100%;
   color:#1a3066;
   padding: 50px 0px;
@@ -54,8 +53,11 @@
         font-size: 13px;
         text-align: left;
         line-height: 20px;
-        
+        @include responsive(mobile) {
+          font-size: 11px;
+        }
       }
+      
       .infoSection {
         display: flex;
         align-items: center;
@@ -83,7 +85,7 @@
           font-family: $light;
           font-weight: bold;
           @include responsive(mobile) {
-            font-size: 16px;
+            font-size: 12px;
             width: 100%;
           }
         }

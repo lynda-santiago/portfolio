@@ -3,7 +3,7 @@ import { resumeData } from "../data.js";
 
 function Resume() {
   return (
-    <div className="resume-container">
+    <div className="resume-container" id='resume'>
       {resumeData.map((item) => {
         return (
           <>

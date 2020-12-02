@@ -16,7 +16,7 @@ export default function SimpleMenu() {
   };
 
   return (
-    <div>
+    <div className='simpleMenu'>
       <Button
         aria-controls="simple-menu"
         aria-haspopup="true"
@@ -31,9 +31,15 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}><a href='#about' style={{textDecoration:'none'}}>About</a></MenuItem>
+        <MenuItem onClick={handleClose}><a href='#skills' style={{textDecoration:'none'}}>Skills</a></MenuItem>
+       <MenuItem onClick={handleClose}><a href='#resume' style={{textDecoration:'none'}}>Resume</a></MenuItem>
+       <MenuItem onClick={handleClose}><a href='#projects' style={{textDecoration:'none'}}>Projects</a></MenuItem>
+       <MenuItem onClick={handleClose}><a href='#extras' style={{textDecoration:'none'}}>Extras</a></MenuItem>
+       <MenuItem onClick={handleClose}><a href='#contact' style={{textDecoration:'none'}}>Contact</a></MenuItem>
+
+
+
       </Menu>
     </div>
   );

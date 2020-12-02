@@ -1,31 +1,17 @@
 import React from "react";
 import { projectsData } from "../data.js";
-import {FcWorkflow} from 'react-icons/fc'
+import { FcWorkflow } from "react-icons/fc";
 
 function Projects() {
   return (
     <>
       <h1>
-        MY <span>PROJECTS</span> <FcWorkflow/>
+        MY <span>PROJECTS</span> <FcWorkflow />
       </h1>
-      <div className="projects-container">
+      <div className="projects-container" id="projects">
         {projectsData.map((item) => {
           return (
             <>
-              {/* <div className="topSection">
-                {item.name === "Laced Pro" ? (
-                  <button>Visit Website</button>
-                ) : (
-                  <a
-                    href="https://anywhere-fitness-getfit.netlify.app/index.html"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <button>Visit Website</button>
-                  </a>
-                )}{" "}
-              </div> */}
-
               <div className="projects">
                 <div>
                   <h2>{item.name}</h2>
@@ -34,7 +20,11 @@ function Projects() {
                   <p>{item.date}</p>
 
                   <h4>Github:</h4>
-                  <p>{item.github}</p>
+                  <p>
+                    <a href={item.github} target="_blank" rel="noreferrer">
+                      Github Link
+                    </a>
+                  </p>
                   <div className="box">
                     <h2 className="techTitle">Tech Stack Used</h2>
                     <p>{item.tech}</p>
