@@ -3,7 +3,7 @@ import { moreInfoData } from "../data.js";
 
 function MoreInfo() {
   return (
-    <div className="moreInfo-container" id='extras'>
+    <div className="moreInfo-container" id="extras">
       <div className="grid">
         {moreInfoData.map((item) => {
           return (

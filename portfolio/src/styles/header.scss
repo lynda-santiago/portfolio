@@ -2,15 +2,15 @@
 @import "./mixins.scss";
 
 .header-section {
-  background-image: url("https://i.imgur.com/vKNfTbi.png");
+  background: black;
   width: 100%;
   background-attachment: fixed;
   .header-container {
     width: 1100px;
     margin: 0rem auto;
-    background-image: url("https://i.imgur.com/vKNfTbi.png");
-    padding-top: 140px;
-    padding-bottom: 100px;
+    background: black;
+    padding-top: 120px;
+    padding-bottom: 80px;
 
     background-attachment: fixed;
 
@@ -19,7 +19,6 @@
     }
     @include responsive(mobile) {
       width: 100%;
-      // height: 100vh;
       padding-top: 90px;
       padding-bottom: 30px;
     }
@@ -40,11 +39,11 @@
       display: flex;
       justify-content: space-between;
       img {
-        width: 500px;
+        width: 100%;
         height: auto;
-        opacity: 0;
+
         @include responsive(tablet) {
-          width: 70%;
+          width: 600px;
         }
         @include responsive(mobile) {
           width: 95%;
@@ -56,7 +55,7 @@
         display: flex;
         flex-direction: column;
         align-items: space-between;
-
+        width: 100%;
         @include responsive(tablet) {
           display: flex;
           flex-direction: column;
@@ -65,34 +64,39 @@
         }
       }
       p {
-        color: #546681;
-        font-family: $light;
+        color: #ffffff;
+        font-family: $titles;
         font-size: 17px;
-        letter-spacing: 1px;
-        margin-bottom: 15px;
-        font-weight: bold;
+        letter-spacing: 2px;
+        margin: 2px 0px;
         @include responsive(tablet) {
           width: 70%;
+          text-align: center;
+          margin-top: 20px;
         }
         @include responsive(mobile) {
-          font-size: 10px;
+          font-size: 13px;
           text-align: center;
+          width: 90%;
         }
       }
       h3 {
         font-size: 55px;
-        color: #1a3066;
-        font-family: $strong;
-        margin-bottom: 10px;
+        color: #ffffff;
+        font-family: $titles;
+        margin: 10px 0px;
         line-height: 65px;
-        opacity: 0;
+        letter-spacing: 3.5px;
 
         @include responsive(tablet) {
-          margin-top: 60px;
+          margin-top: 10px;
           font-size: 40px;
+          width: 100%;
+          text-align: center;
         }
         @include responsive(mobile) {
           margin-bottom: 0px;
+          padding: 0px 8px;
         }
 
         .codeLogo {
@@ -113,13 +117,12 @@
         }
       }
       button {
-        background: #f9a826;
+        background: #ff6584;
         font-family: $light;
         color: white;
         text-transform: uppercase;
         margin-top: 32px;
         padding: 18px 35px;
-        border-radius: 50px;
         width: 220px;
         font-size: 14px;
         line-height: 20px;
@@ -132,7 +135,7 @@
           width: 150px;
           padding: 10px;
           font-size: 12px;
-          margin-top: 0px;
+          margin-top: 20px;
         }
       }
     }

@@ -2,9 +2,9 @@
 @import "./mixins.scss";
 
 .resume-section {
-  background-color: rgba(233, 233, 233, 0.829);
+  background-color: #2f2e41;
   width: 100%;
-  color:#1a3066;
+  color: white;
   padding: 50px 0px;
 
   .resume-container {
@@ -31,7 +31,7 @@
         width: 178px;
         font-family: $light;
         text-transform: uppercase;
-        background: #1a3066;
+        background: #00b0ff;
         border-radius: 7px;
         font-size: 22px;
         color: white;
@@ -57,13 +57,13 @@
           font-size: 11px;
         }
       }
-      
+
       .infoSection {
         display: flex;
         align-items: center;
         margin-bottom: 12px;
         span {
-          background: #1a3066;
+          background: #00b0ff;
           margin-left: 15px;
 
           p {
@@ -71,7 +71,7 @@
             padding-top: 2px;
             padding-left: 8px;
             padding-right: 10px;
-            background:#1a3066;
+            background: #00b0ff;
             color: white;
             @include responsive(mobile) {
               font-size: 14px;
@@ -94,7 +94,7 @@
   }
   h2 {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-family: $light;
     margin-top: 50px;
     a {

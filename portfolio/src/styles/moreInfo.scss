@@ -2,14 +2,21 @@
 @import "./mixins.scss";
 
 .moreInfo-section {
-  background: -webkit-Radial-gradient(ellipse at bottom right,#174bf4,#0e0512);
-  background: Radial-gradient(ellipse at bottom right,#174bf4,#0e0512); 
+  background: -webkit-Radial-gradient(
+    ellipse at bottom right,
+    #174bf4,
+    #0e0512
+  );
+  background: Radial-gradient(ellipse at bottom right, #174bf4, #0e0512);
   width: 100%;
   padding-top: 170px;
   padding-bottom: 170px;
   height: 100%;
   color: white;
   font-family: $light;
+  @include responsive(mobile) {
+    padding: 80px 0px;
+  }
 
   .moreInfo-container {
     width: 1100px;
@@ -23,7 +30,7 @@
     .grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-  
+
       @include responsive(tablet) {
         grid-template-columns: 1fr;
       }

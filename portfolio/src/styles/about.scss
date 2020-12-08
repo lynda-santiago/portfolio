@@ -2,12 +2,12 @@
 @import "./mixins.scss";
 
 .about-section {
-  background: ghostwhite;
+  background: #00b0ff;
   width: 100%;
   padding-top: 90px;
-  padding-bottom: 0px;
+  padding-bottom: 115px;
   @include responsive(tablet) {
-    padding: 20px 0px;
+    padding: 80px 0px;
   }
   @include responsive(mobile) {
     padding-top: 140px;
@@ -31,7 +31,7 @@
     .skillsAndImage {
       display: flex;
       justify-content: space-between;
-      margin-top: 10rem;
+
       @include responsive(mobile) {
         display: flex;
         flex-direction: column;
@@ -48,16 +48,12 @@
         }
       }
       h1 {
-        background: ghostwhite;
         border-radius: 10px;
-        color: #1a3066;
+        color: #ffffff;
         font-size: 40px;
         font-family: $strong;
         padding: 30px 30px;
         line-height: 60px;
-        // box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
-        //   0px 3px 14px 2px rgba(0, 0, 0, 0.12),
-        //   0px 5px 5px -3px rgba(0, 0, 0, 0.2);
         @include responsive(tablet) {
           text-align: center;
           font-size: 25px;
@@ -76,7 +72,7 @@
           }
         }
         span {
-          color: #f9a826;
+          color: #ff6584;
         }
       }
     }
@@ -96,6 +92,7 @@
       }
       div {
         align-self: center;
+        width: 100%;
         @include responsive(tablet) {
           display: flex;
           flex-direction: column;
@@ -108,14 +105,13 @@
         }
       }
       p {
-        color: #546681;
+        color: #ffffff;
         font-family: $light;
         font-size: 14px;
         letter-spacing: 1px;
         margin-bottom: 20px;
         text-align: right;
         line-height: 22px;
-        font-weight: bold;
         @include responsive(tablet) {
           text-align: center;
         }
@@ -126,7 +122,7 @@
       }
       h1 {
         font-size: 45px;
-        color: #1a3066;
+        color: #ffffff;
         font-family: $strong;
         text-align: center;
         margin-bottom: 8px;

@@ -1,19 +1,15 @@
 import React from "react";
-import { GiProgression } from "react-icons/gi";
-import { SiPluscodes } from "react-icons/si";
 
 function About() {
   return (
     <div className="about-container" id="about">
       <div className="grid">
         <div>
-          <img src="https://i.imgur.com/f8q7J78.png" alt="" />
+          <img src="https://i.imgur.com/GEhaODV.png" alt="" />
         </div>
 
         <div>
-          <h1>
-            About Me <SiPluscodes className="codeLogo" />
-          </h1>
+          <h1>About Me</h1>
           <p>
             Welcome to my website, My name is Lynda Santiago. I am a Web
             Developer & UI Designer who enjoys creating beautiful user friendly
@@ -26,12 +22,6 @@ function About() {
           </p>
         </div>
       </div>
-
-      <div className="skillsAndImage"><h1 className="skills">
-        My skills can help your business <br />
-        <span>drive success</span>
-      </h1>
-      <img src='https://i.imgur.com/3jbwyV2.png'/></div>
     </div>
   );
 }
