@@ -10,7 +10,8 @@
     padding: 80px 0px;
   }
   @include responsive(mobile) {
-    padding-top: 140px;
+    padding-top: 60px;
+    padding-bottom: 40px;
   }
   .about-container {
     width: 1100px;
