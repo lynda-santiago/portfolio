@@ -15,7 +15,8 @@
   color: white;
   font-family: $light;
   @include responsive(mobile) {
-    padding: 80px 0px;
+    padding-top: 80px;
+    padding-bottom: 20px;
   }
 
   .moreInfo-container {
@@ -52,6 +53,10 @@
         margin: 40px 0px;
         font-size: 23px;
         letter-spacing: 1px;
+        @include responsive(mobile) {
+          margin: 20px 0px;
+        
+        }
       }
       p {
         font-size: 13px;
@@ -62,6 +67,9 @@
         @include responsive(tablet) {
           width: 70%;
           text-align: center;
+        }
+        @include responsive(mobile) {
+          margin-bottom: 3rem;
         }
       }
     }
