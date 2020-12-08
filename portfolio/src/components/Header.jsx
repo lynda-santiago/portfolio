@@ -5,7 +5,7 @@ function Header() {
     <div className="header-container">
       <div className="grid">
         <div>
-          <p>My Name Is Lynda Santiago</p>
+          <p>test My Name Is Lynda Santiago</p>
           <h3>I Am A Web Developer && UI Designer</h3>
           <p>
             “To be yourself in a world that is constantly trying to make you
