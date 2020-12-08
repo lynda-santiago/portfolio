@@ -2,10 +2,11 @@
 @import "./mixins.scss";
 
 .skills-section {
-  background-image: url('https://i.imgur.com/vKNfTbi.png');
-  background-attachment: fixed;  width: 100%;
+  background-attachment: fixed;
+  width: 100%;
   padding-top: 95px;
   padding-bottom: 30px;
+  background-image: url("https://i.imgur.com/vKNfTbi.png");
   @include responsive(tablet) {
     padding-top: 20px;
   }
@@ -41,7 +42,7 @@
       }
 
       div {
-        background: rgb(255, 255, 255);
+        background: ghostwhite;
         border: 1px solid #eee1e1;
         border-radius: 2px;
         padding-top: 120px;
@@ -51,6 +52,8 @@
         width: 100%;
         height: 100%;
         margin-top: 4px;
+    
+     
 
         @include responsive(tablet) {
           display: flex;
