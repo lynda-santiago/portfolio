@@ -89,7 +89,13 @@ function Projects() {
                   <img src={item.video} alt="gif of project website" />
                   <div className="topSection">
                     {item.name === "Laced Pro" ? (
-                      <button>Visit Website</button>
+                        <a
+                        href="https://lacedpro.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button>Visit Website</button>
+                      </a>
                     ) : (
                       <a
                         href="https://anywhere-fitness-getfit.netlify.app/index.html"
