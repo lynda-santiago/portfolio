@@ -37,15 +37,14 @@ function Resume() {
         );
       })}
       <h2>
-        Open Resume{" "}
         <a
-          href="https://docs.google.com/document/d/1NsoqabFIf24WLl6DuWeMtLd5UMXqE50pKbdLtQp9G2o/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1bYqggQutJxwptM--w-s-9XS0SlCyAmY9/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
-          📋{" "}
+          {" "}
+          Open Resume In Google Docs{" "}
         </a>
-        In Google Docs
       </h2>
     </div>
   );
