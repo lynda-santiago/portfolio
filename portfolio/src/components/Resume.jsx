@@ -43,7 +43,7 @@ function Resume() {
           rel="noreferrer"
         >
           {" "}
-          Open Resume In Google Docs{" "}
+          Open Resume As PDF{" "}
         </a>
       </h2>
     </div>
