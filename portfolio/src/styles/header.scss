@@ -130,8 +130,8 @@
           }
         }
         @include responsive(mobile) {
-          font-size: 1.5rem;
-          width: 10.8em;
+          font-size: 1.2rem;
+          width: 12em;
           line-height: 35px;
           text-align: center;
           margin: 5px 0px;
@@ -142,7 +142,7 @@
               width: 0;
             }
             to {
-              width: 10.8em;
+              width: 12em;
             }
           }
         }
