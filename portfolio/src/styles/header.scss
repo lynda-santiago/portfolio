@@ -56,6 +56,7 @@
         flex-direction: column;
         align-items: space-between;
         width: 100%;
+
         @include responsive(tablet) {
           display: flex;
           flex-direction: column;
@@ -78,6 +79,7 @@
           font-size: 13px;
           text-align: center;
           width: 90%;
+          margin-top: 0px;
         }
       }
       h3 {
@@ -87,33 +89,62 @@
         margin: 10px 0px;
         line-height: 65px;
         letter-spacing: 3.5px;
+        width: 90%;
+        overflow: hidden;
+        border-right: 0.15em solid orange;
+        white-space: nowrap;
+        animation: typing 2.5s steps(40, end),
+          blink-caret 0.75s step-end infinite;
 
-        @include responsive(tablet) {
-          margin-top: 10px;
-          font-size: 40px;
-          width: 100%;
-          text-align: center;
+        @keyframes typing {
+          from {
+            width: 0;
+          }
+          to {
+            width: 8.8em;
+          }
         }
-        @include responsive(mobile) {
-          margin-bottom: 0px;
-          padding: 0px 8px;
-        }
-
-        .codeLogo {
-          font-size: 45px;
-
-          color: #f9a826;
-          margin-left: 10px;
-          @include responsive(mobile) {
-            font-size: 20px;
+        @keyframes blink-caret {
+          from,
+          to {
+            border-color: transparent;
+          }
+          50% {
+            border-color: white;
           }
         }
 
+        @include responsive(tablet) {
+          margin-top: 10px;
+          font-size: 4rem;
+          width: 8.8em;
+          animation: tablet 2.5s steps(40, end),
+            blink-caret 0.75s step-end infinite;
+          @keyframes tablet {
+            from {
+              width: 0;
+            }
+            to {
+              width: 8.8em;
+            }
+          }
+        }
         @include responsive(mobile) {
+          font-size: 1.5rem;
+          width: 10.8em;
           line-height: 35px;
           text-align: center;
-          margin-top: 10px;
-          font-size: 30px;
+          margin: 5px 0px;
+          animation: phone 2.5s steps(40, end),
+            blink-caret 0.75s step-end infinite;
+          @keyframes phone {
+            from {
+              width: 0;
+            }
+            to {
+              width: 10.8em;
+            }
+          }
         }
       }
       button {

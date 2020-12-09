@@ -1,7 +1,6 @@
-
 export const skillsData = [
   {
-    img: 'https://i.imgur.com/1QttBz2.png',
+    img: "https://i.imgur.com/1QttBz2.png",
     title: "Front End",
     skills: {
       first: "HTML/CSS/SASS",
@@ -13,7 +12,7 @@ export const skillsData = [
     },
   },
   {
-    img: 'https://i.imgur.com/DL5M7Xl.png',
+    img: "https://i.imgur.com/DL5M7Xl.png",
     title: "Web Design",
     skills: {
       first: "ADOBE XD",
@@ -64,11 +63,11 @@ export const resumeData = [
 
 export const projectsData = [
   {
-    video: "https://s8.gifyu.com/images/ezgif-3-854abacb6fbf.gif",
+    video: "https://s8.gifyu.com/images/ezgif-1-d40386bd6cac.gif",
     name: "Laced Pro",
     date: "October 2020",
     about:
-      "Laced pro is an online sneaker store, where users can checkout the latest sneakers and add them to cart.",
+      "Laced pro is an online sneaker store, where users can checkout the latest sneakers and add them to cart. (I created media queries for both tablet and mobile view)",
 
     year: "2020",
     tech: "REACT/JS/SASS/MATERIAL UI/BOOTSTRAP",
@@ -83,7 +82,7 @@ export const projectsData = [
     name: "Anywhere Fitness",
     date: "May 2020",
     about:
-      "This is the first website I ever created. Its a fitness marketing page to let users know how the App works.",
+      "This is the first website I ever created. Its a fitness marketing page to let users know how the App works. (I created media queries for both tablet and mobile view)",
 
     year: "2020",
     tech: "HTML/CSS",
