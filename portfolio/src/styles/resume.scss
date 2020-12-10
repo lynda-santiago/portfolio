@@ -2,22 +2,27 @@
 @import "./mixins.scss";
 
 .resume-section {
-  background: #2f2e41;
+  background: #292828;
   width: 100%;
-  color: rgb(255, 255, 255);
-  padding: 50px 0px;
+  color: rgb(0, 0, 0);
+  padding-top: 95px;
+  padding-bottom: 60px;
+  background-color: #5078f2;
+  background-image: linear-gradient(315deg, #5078f2 0%, #efe9f4 74%);
 
   .resume-container {
     width: 1100px;
     margin: 0 auto;
-    padding: 40px 0px;
+    padding: 40px 40px;
+    border-radius: 20px;
+    background: rgba(248, 248, 255, 0.425);
 
     @include responsive(tablet) {
       width: 90%;
       padding: 40px 20px;
     }
     @include responsive(mobile) {
-      padding: 0px;
+      // padding: 0px;
     }
     .titles {
       display: flex;
@@ -32,8 +37,7 @@
         width: 178px;
         font-family: $light;
         text-transform: uppercase;
-        background: #00b0ff;
-        border-radius: 7px;
+        background: #5078f2;
         font-size: 22px;
         color: white;
         letter-spacing: 1.5px;
@@ -51,11 +55,14 @@
       p {
         margin-bottom: 2px;
         font-family: $light;
-        font-size: 13px;
+        font-size: 13.5px;
         text-align: left;
-        line-height: 20px;
+        line-height: 23px;
+        @include responsive(tablet) {
+          font-size: 13px;
+        }
         @include responsive(mobile) {
-          font-size: 11px;
+          font-size: 12px;
         }
       }
 
@@ -64,16 +71,19 @@
         align-items: center;
         margin-bottom: 12px;
         span {
-          background: #00b0ff;
+          background: #5078f2;
           margin-left: 15px;
 
           p {
-            font-size: 16px;
+            font-size: 15px;
             padding-top: 2px;
             padding-left: 8px;
             padding-right: 10px;
-            background: #00b0ff;
+            background: #5078f2;
             color: white;
+            @include responsive(tablet) {
+              font-size: 14px;
+            }
             @include responsive(mobile) {
               font-size: 14px;
               width: 100px;
@@ -81,10 +91,13 @@
           }
         }
         p {
-          font-size: 14px;
+          font-size: 15px;
           text-align: left;
           font-family: $light;
           font-weight: bold;
+          @include responsive(tablet) {
+            font-size: 13px;
+          }
           @include responsive(mobile) {
             font-size: 12px;
             width: 100%;
@@ -94,13 +107,31 @@
     }
   }
   h2 {
+    font-size: 14px;
+    font-family: $light;
+    background: #5078f2;
+    width: 100px;
+    margin-right: 30px;
+  }
+  .pdfTitle {
     text-align: center;
     font-size: 14px;
     font-family: $light;
+    background: #5078f2;
+    width: 200px;
+    margin: 0px auto;
     margin-top: 50px;
+    padding: 9px 10px;
+    border-radius: 30px;
+    border: 1px solid #5078f2;
+
+    @include responsive(mobile) {
+      font-size: 12px;
+      width: 100%;
+    }
     a {
       text-decoration: none;
-      color: white;
+      color: rgb(255, 255, 255);
     }
   }
 }

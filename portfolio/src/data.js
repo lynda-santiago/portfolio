@@ -39,7 +39,7 @@ export const skillsData = [
 export const resumeData = [
   {
     type: "Education",
-    companyName1: "Full Stack Web Development, Lambda School",
+    companyName1: "Full Stack Web Development & C.S, Lambda School",
     companyName2: "Medical Assistance Program, Lincoln Tech",
     date1: "2020-2021",
     date2: "2013-2014",

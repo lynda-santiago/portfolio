@@ -14,6 +14,7 @@
   height: 100%;
   color: white;
   font-family: $light;
+
   @include responsive(mobile) {
     padding-top: 80px;
     padding-bottom: 20px;
@@ -55,7 +56,6 @@
         letter-spacing: 1px;
         @include responsive(mobile) {
           margin: 20px 0px;
-        
         }
       }
       p {
