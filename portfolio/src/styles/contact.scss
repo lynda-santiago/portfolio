@@ -7,9 +7,8 @@
   justify-content: center;
   align-items: center;
   color: black;
-  background-image: url("https://i.imgur.com/vKNfTbi.png");
   background-attachment: fixed;
-
+  background: rgba(235, 231, 231, 0.74);
   .contact-container {
     width: 940px;
     margin: 1rem auto;
@@ -119,9 +118,9 @@
           color: white;
           text-transform: uppercase;
           margin-top: 10px;
-          padding: 18px 35px;
-          width: 220px;
-          font-size: 14px;
+          padding: 12px 35px;
+          width: 190px;
+          font-size: 11px;
           line-height: 20px;
           text-align: center;
           border: none;

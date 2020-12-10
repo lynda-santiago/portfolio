@@ -12,9 +12,19 @@ function Header() {
             something else is the greatest accomplishment.”
             <br />― Ralph Waldo Emerson
           </p>
-          <a href="#contact">
-            <button>hire me</button>
-          </a>
+          <div style={{ display: "flex", flexDirection: "row" }}>
+            <a
+              href="https://drive.google.com/file/d/1bYqggQutJxwptM--w-s-9XS0SlCyAmY9/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              <button className="resumeBtn">Resume</button>
+            </a>
+            <a href="#contact">
+              <button>hire me</button>
+            </a>
+          </div>
         </div>
 
         <div className="img">

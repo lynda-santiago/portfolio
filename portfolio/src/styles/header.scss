@@ -89,7 +89,7 @@
         }
         @include responsive(mobile) {
           width: 95%;
-          margin-top: 20px;
+          margin-top: 8px;
         }
       }
       div {
@@ -118,10 +118,10 @@
           margin-top: 20px;
         }
         @include responsive(mobile) {
-          font-size: 13px;
+          font-size: 14px;
           text-align: center;
           width: 90%;
-          margin-top: 0px;
+          margin-top: 5px;
         }
       }
       h3 {
@@ -194,10 +194,11 @@
         font-family: $light;
         color: white;
         text-transform: uppercase;
-        margin-top: 32px;
-        padding: 18px 35px;
-        width: 220px;
-        font-size: 14px;
+        margin-top: 65px;
+        margin-right: 20px;
+        padding: 9px 22px;
+        width: 130px;
+        font-size: 13px;
         line-height: 20px;
         text-align: center;
         border: none;
@@ -205,11 +206,17 @@
         letter-spacing: 2px;
         cursor: pointer;
         @include responsive(mobile) {
-          width: 150px;
-          padding: 10px;
-          font-size: 12px;
-          margin-top: 20px;
+          width: 130px;
+          padding: 8px;
+          font-size: 11px;
+          margin: 20px auto;
+          margin-top: 25px;
+          margin-right: 5px;
+          margin-left: 5px;
         }
+      }
+      .resumeBtn {
+        background: #00b0ff;
       }
     }
   }
