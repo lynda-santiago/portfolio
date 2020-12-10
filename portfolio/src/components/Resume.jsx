@@ -13,7 +13,7 @@ function Resume() {
               <div
                 style={{
                   width: "640px",
-                  borderTop: "3px solid #5078f2",
+                  borderTop: "3px solid #cf556c",
                 }}
               ></div>
             </div>
