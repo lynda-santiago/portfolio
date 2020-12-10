@@ -32,6 +32,16 @@ export default function SimpleMenu() {
         onClose={handleClose}
       >
         <MenuItem onClick={handleClose}>
+          <a
+            href="https://drive.google.com/file/d/1bYqggQutJxwptM--w-s-9XS0SlCyAmY9/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            My Resume
+          </a>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
           <a href="#about" style={{ textDecoration: "none", color: "black" }}>
             About
           </a>
@@ -41,11 +51,7 @@ export default function SimpleMenu() {
             Skills
           </a>
         </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <a href="#resume" style={{ textDecoration: "none", color: "black" }}>
-            Resume
-          </a>
-        </MenuItem>
+
         <MenuItem onClick={handleClose}>
           <a
             href="#projects"

@@ -7,6 +7,15 @@ function Nav() {
       <div className="nav-menu">
         <ul>
           <li>
+            <a
+              href="https://drive.google.com/file/d/1bYqggQutJxwptM--w-s-9XS0SlCyAmY9/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              My Resume
+            </a>
+          </li>
+          <li>
             <a href="#about">About</a>
           </li>
           <li>
