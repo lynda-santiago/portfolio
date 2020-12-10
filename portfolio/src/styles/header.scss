@@ -117,7 +117,7 @@
         @include responsive(tablet) {
           margin-top: 10px;
           font-size: 4rem;
-          width: 8.8em;
+          width: 9.2em;
           animation: tablet 2.5s steps(40, end),
             blink-caret 0.75s step-end infinite;
           @keyframes tablet {
@@ -125,7 +125,7 @@
               width: 0;
             }
             to {
-              width: 8.8em;
+              width: 9.2em;
             }
           }
         }
