@@ -84,7 +84,7 @@ function Projects() {
                       ) : (
                         ""
                       )}{" "}
-                      {item.name === "Chops-yo Restaurant App" ? (
+                      {item.name === "Chops-yo Food App" ? (
                         <img
                           src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png"
                           className="iconImage"
@@ -93,7 +93,7 @@ function Projects() {
                       ) : (
                         ""
                       )}{" "}
-                      {item.name === "Chops-yo Restaurant App" ? (
+                      {item.name === "Chops-yo Food App" ? (
                         <img
                           src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-256.png"
                           className="iconImage"
@@ -102,7 +102,7 @@ function Projects() {
                       ) : (
                         ""
                       )}{" "}
-                      {item.name === "Chops-yo Restaurant App" ? (
+                      {item.name === "Chops-yo Food App" ? (
                         <img
                           src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/sass-256.png"
                           className="iconImage"
@@ -111,7 +111,7 @@ function Projects() {
                       ) : (
                         ""
                       )}{" "}
-                      {item.name === "Chops-yo Restaurant App" ? (
+                      {item.name === "Chops-yo Food App" ? (
                         <img
                           src="https://material-ui.com/static/logo_raw.svg"
                           className="iconImage"
@@ -157,7 +157,7 @@ function Projects() {
                     ) : (
                       ""
                     )}{" "}
-                     {item.name === "Chops-yo Restaurant App" ? (
+                     {item.name === "Chops-yo Food App" ? (
                       <a
                         href="https://chops.netlify.app/"
                         target="_blank"
