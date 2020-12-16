@@ -17,6 +17,48 @@
     align-items: center;
     font-family: $strong;
     position: static;
+    .h1-container {
+      width: 50%;
+      display: flex;
+      align-items: center;
+
+      @include responsive(tablet) {
+        width: 100%;
+        display: flex;
+      }
+      @include responsive(mobile) {
+        width: 100%;
+        display: flex;
+      }
+      .social-media {
+        width: 25px;
+        height: 24px;
+        cursor: pointer;
+        margin: 0px 5px;
+        @include responsive(mobile) {
+          width: 26px;
+          height: 24px;
+          margin: 0px 6px;
+        }
+      }
+      h1 {
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 900;
+        color: #ffffff;
+        margin-right: 15px;
+        @include responsive(tablet) {
+          font-size: 21px;
+          width: 100%;
+          text-align: center;
+        }
+        @include responsive(mobile) {
+          font-size: 16px;
+          margin-right: 0px;
+        }
+      }
+    }
 
     @include responsive(tablet) {
       width: 100%;
@@ -39,21 +81,6 @@
       }
     }
 
-    h1 {
-      font-size: 18px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-weight: 900;
-      color: #ffffff;
-      @include responsive(tablet) {
-        font-size: 21px;
-        width: 100%;
-        text-align: center;
-      }
-      @include responsive(mobile) {
-        font-size: 16px;
-      }
-    }
     .nav-menu {
       display: flex;
       @include responsive(tablet) {

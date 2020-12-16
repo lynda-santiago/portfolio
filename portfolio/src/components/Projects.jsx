@@ -15,7 +15,11 @@ function Projects() {
               <div className="projects">
                 <div>
                   <h2>{item.name}</h2>
-                  <img src={item.video} alt="gif of project website" className='media-only'/>
+                  <img
+                    src={item.video}
+                    alt="gif of project website"
+                    className="media-only"
+                  />
                   <p>{item.about}</p>
                   <h4>Date:</h4>
                   <p>{item.date}</p>
@@ -133,7 +137,11 @@ function Projects() {
                   </div>
                 </div>
                 <div className="image">
-                  <img src={item.video} alt="gif of project website" className='desktop-only' />
+                  <img
+                    src={item.video}
+                    alt="gif of project website"
+                    className="desktop-only"
+                  />
                   <div className="topSection">
                     {item.name === "Laced Pro Sneaker App" ? (
                       <a
@@ -157,7 +165,7 @@ function Projects() {
                     ) : (
                       ""
                     )}{" "}
-                     {item.name === "Chops-yo Food App" ? (
+                    {item.name === "Chops-yo Food App" ? (
                       <a
                         href="https://chops.netlify.app/"
                         target="_blank"
