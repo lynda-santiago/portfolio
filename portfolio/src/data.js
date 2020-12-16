@@ -64,10 +64,10 @@ export const resumeData = [
 export const projectsData = [
   {
     video: "https://s8.gifyu.com/images/ezgif-1-d1d932090ba7.gif",
-    name: "Chops-yo Restaurant App",
+    name: "Chops-yo Food App",
     date: "December 2020",
     about:
-      "Chops-yo Restaurant App have different routes that I set up using React-router-dom. I used Redux to manage the state of the app.",
+      "Chops-yo Food App have different routes that I set up using React-router-dom. I used Redux to manage the state of the app.",
 
     year: "2020",
     tech: "REACT/JS/SASS/MATERIAL UI/BOOTSTRAP",
