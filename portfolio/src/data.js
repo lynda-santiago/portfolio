@@ -63,11 +63,26 @@ export const resumeData = [
 
 export const projectsData = [
   {
-    video: "https://s8.gifyu.com/images/ezgif-1-d40386bd6cac.gif",
-    name: "Laced Pro",
-    date: "October 2020",
+    video: "https://s8.gifyu.com/images/ezgif-1-d1d932090ba7.gif",
+    name: "Chops-yo Restaurant App",
+    date: "December 2020",
     about:
-      "Laced pro is an online sneaker store, where users can checkout the latest sneakers and add them to cart. (I created media queries for both tablet and mobile view)",
+      "Chops-yo Restaurant App have different routes that I set up using React-router-dom. I used Redux to manage the state of the app.",
+
+    year: "2020",
+    tech: "REACT/JS/SASS/MATERIAL UI/BOOTSTRAP",
+    github: "https://github.com/lyntechi/chops-yo",
+    icons: {
+      iconOne:
+        "https://cdn2.iconfinder.com/data/icons/designer-skills/128/sass-256.png",
+    },
+  },
+  {
+    video: "https://s8.gifyu.com/images/ezgif-1-d40386bd6cac.gif",
+    name: "Laced Pro Sneaker App",
+    date: "September 2020",
+    about:
+      "Laced pro is an online sneaker store, where users can checkout the latest sneakers and add them to cart. ",
 
     year: "2020",
     tech: "REACT/JS/SASS/MATERIAL UI/BOOTSTRAP",
@@ -79,10 +94,10 @@ export const projectsData = [
   },
   {
     video: "https://s2.gifyu.com/images/ezgif-3-9e08116eb520.gif",
-    name: "Anywhere Fitness",
+    name: "Anywhere Fitness App",
     date: "May 2020",
     about:
-      "This is the first website I ever created. Its a fitness marketing page to let users know how the App works. (I created media queries for both tablet and mobile view)",
+      "This is the first website I ever created. Its a fitness marketing page to let users know how the App works.",
 
     year: "2020",
     tech: "HTML/CSS",
