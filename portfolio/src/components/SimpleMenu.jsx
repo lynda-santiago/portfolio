@@ -38,7 +38,7 @@ export default function SimpleMenu() {
             rel="noreferrer"
             style={{ textDecoration: "none", color: "black" }}
           >
-            My Resume
+            Resume
           </a>
         </MenuItem>
         <MenuItem onClick={handleClose}>

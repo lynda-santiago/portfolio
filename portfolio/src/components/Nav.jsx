@@ -12,7 +12,7 @@ function Nav() {
               target="_blank"
               rel="noreferrer"
             >
-              My Resume
+              Resume
             </a>
           </li>
           <li>
@@ -35,7 +35,6 @@ function Nav() {
 
       <div className="h1-container">
         {" "}
-        <h1>Lyn Santi</h1>
         <a
           href="https://www.linkedin.com/in/lynda-santiago-7b58221b4/"
           target="_blank"
@@ -69,7 +68,7 @@ function Nav() {
           />
         </a>
       </div>
-
+      <h1>Lyn Santi</h1>
       <div className="mobileMenu">
         {" "}
         <SimpleMenu />
