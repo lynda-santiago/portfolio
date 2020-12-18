@@ -27,7 +27,7 @@ export const skillsData = [
     title: "Back End",
     skills: {
       first: "NODE.JS",
-      second: "POSTRESSQL",
+      second: "POSTGRESQL",
       third: "POSTMAN",
       fourth: "INSOMNIA",
       fifth: "DATABASE DESIGNER",
