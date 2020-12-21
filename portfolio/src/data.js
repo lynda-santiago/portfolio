@@ -67,10 +67,10 @@ export const projectsData = [
     name: "Chops-yo Food App",
     date: "December 2020",
     about:
-      "Chops-yo Food App have different routes that I set up using React-router-dom. I used Redux to manage the state of the app.",
+      "Chops-yo Food App have different routes that I set up using React-router-dom. User can click on each item and read more info on the item as well as reviews and user can create and remove comment. I used Redux to manage the data state of the app.",
 
     year: "2020",
-    tech: "REACT/JS/SASS/MATERIAL UI/BOOTSTRAP",
+    tech: "REACT/JS/SASS/MATERIAL UI/REDUX",
     github: "https://github.com/lyntechi/chops-yo",
     icons: {
       iconOne:
@@ -82,7 +82,7 @@ export const projectsData = [
     name: "Laced Pro Sneaker App",
     date: "September 2020",
     about:
-      "Laced pro is an online sneaker store, where users can checkout the latest sneakers and add them to cart. ",
+      "Laced pro is an online sneaker store. Users can click on the item card components and see a video of product and a modal of images as well as adding to cart and removing from cart functionality. I used Context API for the apps state management. ",
 
     year: "2020",
     tech: "REACT/JS/SASS/MATERIAL UI/BOOTSTRAP",

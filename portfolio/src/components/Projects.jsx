@@ -124,6 +124,15 @@ function Projects() {
                       ) : (
                         ""
                       )}{" "}
+                      {item.name === "Chops-yo Food App" ? (
+                        <img
+                          src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"
+                          className="iconImage"
+                          alt="tech icon"
+                        />
+                      ) : (
+                        ""
+                      )}{" "}
                       {item.name === "Anywhere Fitness App" ? (
                         <img
                           src="https://cdn3.iconfinder.com/data/icons/file-extension-11/512/css-file-extension-format-digital-256.png"
