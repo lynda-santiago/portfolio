@@ -34,6 +34,52 @@
         flex-direction: row;
         margin-top: 30px;
         justify-content: space-between;
+        .errorName {
+          font-size: 12px;
+          position: absolute;
+          left: 0px;
+          bottom: 45px;
+          color: red;
+          font-weight: bold;
+          @include responsive(tablet) {
+            bottom: 30px;
+            left: 20px;
+          }
+          @include responsive(mobile) {
+            bottom: 0px;
+            left: 62px;
+            top: 7px;
+          }
+        }
+        .errorEmail {
+          font-size: 12px;
+          position: absolute;
+          left: 405px;
+          bottom: 45px;
+          color: red;
+          font-weight: bold;
+          @include responsive(tablet) {
+            bottom: 30px;
+            left: 310px;
+          }
+          @include responsive(mobile) {
+            bottom: 0px;
+            left: 62px;
+            top: 90px;
+          }
+        }
+        .errorMessage {
+          font-size: 12px;
+          position: absolute;
+          left: 0px;
+          bottom: -65px;
+          color: red;
+          font-weight: bold;
+          @include responsive(tablet) {
+            top: 176px;
+            left: 62px;
+          }
+        }
         @include responsive(mobile) {
           display: flex;
           flex-direction: column;
@@ -81,7 +127,7 @@
             margin: 0px 20px;
           }
           @include responsive(mobile) {
-            margin: 0px;
+            margin: 15px 0px;
           }
         }
         ::placeholder {
@@ -101,6 +147,7 @@
           @include responsive(mobile) {
             width: 250px;
             height: 100px;
+            margin: 15px 0px;
           }
         }
         p {
